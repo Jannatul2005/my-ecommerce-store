@@ -17,8 +17,14 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-full screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-500">
-      <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
+    <div
+      className="w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage:
+          "url('https://img.freepik.com/premium-photo/toy-shopping-cart-with-boxes-credit-card-with-copy-space_339191-197.jpg')",
+      }}
+    >
+      <div className="bg-white bg-opacity-90 shadow-2xl rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Welcome Back 👋</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
